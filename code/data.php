@@ -1,10 +1,5 @@
 <?php
 
-$result = $_SERVER["REQUEST_TIME"];
-
-echo json_encode($result);
-return;
-
 $myObj = new stdClass();
 $myObj ->productList = array();
 
