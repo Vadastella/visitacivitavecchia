@@ -26,9 +26,9 @@ if($result->num_rows > 0){
         $prod->img1_url = $row['img1_url'];
         $prod->img2_url = $row['img2_url'];
         $prod->img3_url = $row['img3_url'];
-        $prod->txt1_url = $row['txt1_url'];
-        $prod->txt2_url = $row['txt2_url'];
-        $prod->txt3_url = $row['txt3_url'];
+        $prod->text1_url = $row['text1_url'];
+        $prod->text2_url = $row['text2_url'];
+        $prod->text3_url = $row['text3_url'];
     }
 }
 
