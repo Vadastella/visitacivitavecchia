@@ -14,7 +14,7 @@ if($conn->connection_error){
 }
 
 $result =$conn->query
-("SELECT * FROM `products` WHERE 'name'= 'Cattedrale'");
+("SELECT * FROM `products` WHERE name= 'Cattedrale'");
 
 if($result->num_rows > 0){
     foreach ($result as $row) {
